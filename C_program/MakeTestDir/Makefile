@@ -7,7 +7,7 @@ all: makeTest
 makeTest: makeTest.o
 	g++-3 -o makeTest makeTest.o
 
-makeTest.o: makeTest.cpp CSample.o
+makeTest.o: CSample.o makeTest.cpp
 	g++-3 -c makeTest.cpp
 
 CSample.o: CSample.cpp

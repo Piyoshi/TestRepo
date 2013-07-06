@@ -1,12 +1,13 @@
+#include <string>
 class CSample{
     public:
-        CSample(){ CSample(100, "名無し"); };
-        CSample(int number, char* name);
+        CSample();
+        CSample(int number, std::string name);
         void setNum(int number);
-        void setName(char* name);
+        void setName(std::string name);
         int getNum();
-        char* getName();
+        std::string getName();
     private:
         int m_num;
-        char* m_name;
+        std::string m_name;
 };

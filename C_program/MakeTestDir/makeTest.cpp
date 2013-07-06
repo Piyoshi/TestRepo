@@ -2,8 +2,11 @@
 #include "CSample.h"
 
 int main(){
-        char name[] = "さとし";
-        CSample sample1 = CSample(1, name);
-        
-        return 0;
+	//std::string name("さとし");
+	//int number = 1;
+	//CSample sample1 = CSample(number, name);
+	CSample sample1;
+
+
+	return 0;
 }
